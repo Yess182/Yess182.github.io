@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Barra de encabezado */
+.header-bar {
+    width: 100%;
+    background-color: #a38b1e;
+    padding: 3px 0;
+    text-align: center;
+    color: #080707;
+    font-size: 8px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Contenedor principal del formulario */
+.login-container {
+    background-color: #cf5b74; 
+    padding: 20px;
+    width: 450;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+
+/* Ajuste de etiquetas para alinearlas a la derecha */
+.login-form label {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Ajuste de los campos de entrada para que ocupen el espacio adecuado */
+.login-form input {
+    padding: 8px;
+    width: 100%; /* Ocupa el ancho disponible */
+}
+.temas {
+    background-color: #cc5959;
+    border: 1px solid hsl(120, 17%, 89%);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.temas h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #444;
+}
+
+.temas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.temas li {
+    padding: 8px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.temas li:last-child {
+    border-bottom: none;
+}
+button.ingresar-btn {
+    background-color: #f174d2; 
+    color: #131111;
+    font-weight: bold;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+}
+
+button.ingresar-btn:hover {
+    background-color: #a5dba9; 
+    transform: scale(1.05);
+}
+
+button.examen-btn {
+    background-color: #4f4f7c;
+    color: #1f1c1c;
+    font-weight: bold;
+    box-shadow: 0 12px 144px rgba(0, 0, 0, 0.1);
+}
+
+button.examen-btn:hover {
+    background-color: #0b7dda;
+    transform: scale(1.05);
+}
+
+
+/* Contenedor para los videos */
+.seccion-videos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para cada video */
+.seccion-videos .video {
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0b4;
+    padding: 6px;
+    text-align: center;
+    transition: transform 0.3s, opacity 0.3s ease;
+}
+
+/* Efecto hover para los videos */
+.seccion-videos .video:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+    opacity: 0.9;
+}
+
+/* Estilo para los enlaces */
+.seccion-videos p a {
+    display: block;
+    margin-top: 8px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.seccion-videos p a:hover {
+    text-decoration: underline;
+}
+.imagenes {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+/* Contenedor de imágenes centrado */
+.imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin: 20px 0;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+}
+
+/* Estilos de las imágenes individuales */
+.imagenes img {
+    width: 200px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-color: hsla(0, 0%, 94%, 0.548); /* Fondo alrededor de la imagen */
+    padding: 5px; /* Espacio entre la imagen y el borde */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efecto hover para hacer zoom en la imagen */
+.imagenes img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+    opacity: 0.9; /* Le da un poco de transparencia */
+}
+
+.preguntas {
+    width: 100%;
+    text-align: left; /* Alinea las preguntas a la izquierda */
+   
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h3 {
+    font-size: 1.1em;
+    color: #333;
+    background-color: #bc8cc7;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(0, 4%, 9%);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 12px;
+}
+
+
